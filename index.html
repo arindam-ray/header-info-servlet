@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Example 2: Registration Form </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: rgb(230, 231, 164);">
+  <center>
+    <h1 style="font-size:2vw; color: rgb(117, 9, 27);">User Form</h1>
+  </center>
+
+  <div class="container">
+    <form action="getinfo" method="GET">
+      <div class="row">
+        <div class="col-50">
+          <label>1. First Name</label>
+          <input type="text" id="name" name="first_name" placeholder="&#128119 Your First name.." maxlength="30"
+            autocomplete="off" required>
+        </div>
+        <div class="col-50">
+          <label>2. Last Name</label>
+          <input type="text" id="last_name" name="last_name" placeholder="&#128119 Your Last Name.." maxlength="10"
+            autocomplete="off">
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-25">
+
+        </div>
+        <div class="col-25">
+          <center> <input type="submit" value="Submit"> </center>
+        </div>
+        <div class="col-25">
+          <center> <input type="reset" value="reset"> </center>
+        </div>
+        <div class="col-25">
+
+        </div>
+      </div>
+
+    </form>
+
+  </div>
+
+</body>
+
+</html>

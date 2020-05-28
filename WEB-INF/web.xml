@@ -1,0 +1,14 @@
+<web-app>
+<display-name>Servlet - HTTP Header Information</display-name>
+<description>HTTP Header Information</description>
+
+<servlet>
+   <servlet-name>Servlet1</servlet-name>
+   <servlet-class>DisplayHeader</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>Servlet1</servlet-name>
+   <url-pattern>/getinfo</url-pattern>
+</servlet-mapping>
+</web-app>
